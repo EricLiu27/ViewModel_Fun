@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <div class="d-flex">
+        <a href="/">Message |</a>
+        <a href="/numbers">Numbers |</a>
+        <a href="/user">User |</a>
+        <a href="/users">Users</a>
+    </div>
+@model User
+    <p>Here is your user</p>
+    <p>@Model.FirstName @Model.LastName</p>
+</div>
